@@ -7,7 +7,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50">
-    <!-- Navigation -->
     <nav class="bg-white shadow-sm">
         <div class="max-w-4xl mx-auto px-4">
             <div class="flex justify-between h-16">
@@ -26,20 +25,91 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="max-w-4xl mx-auto px-4 py-8">
-        <div class="text-center py-16">
-            <h1 class="text-3xl font-bold text-gray-900 mb-6">Teaching</h1>
-            <p class="text-gray-600 mb-8">Information about my teaching activities and courses will be available soon.</p>
-            <p class="text-gray-600">Please check back later for a complete overview of current and past courses.</p>
-        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Teaching</h1>
+        <p class="text-gray-600 mb-8">I teach quantitative methods at all levels, from introductory statistics to graduate seminars on machine learning and text analysis. All courses emphasise understanding over black-box application and work with real research data.</p>
+
+        <!-- Current courses at Potsdam -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">University of Potsdam</h2>
+
+            <div class="mb-8">
+                <h3 class="text-lg font-semibold text-gray-700 mb-3">Graduate (M.Sc. Economic Policy and Quantitative Methods)</h3>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-lg shadow-sm">
+                        <h4 class="font-semibold text-gray-800">Text Analysis and Machine Learning Methods for Economic Research</h4>
+                        <p class="text-gray-500 text-sm mt-1">Seminar, in English &middot; Summer terms since 2025</p>
+                        <p class="text-gray-600 mt-2">Quantitative text analysis for economic research: text preprocessing, supervised classification, clustering, word embeddings, topic models (LDA/STM), and an introduction to transformer models and LLMs. Students work with real corpora such as parliamentary speeches.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow-sm">
+                        <h4 class="font-semibold text-gray-800">Machine Learning with R</h4>
+                        <p class="text-gray-500 text-sm mt-1">Seminar, in English &middot; Winter term 2025/26 (new)</p>
+                        <p class="text-gray-600 mt-2">Supervised and unsupervised ML methods for economists: regularisation, tree-based methods, model evaluation, and ML for causal inference. Hands-on implementation in the tidymodels ecosystem; assessed via an independent project with real economic data.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-lg font-semibold text-gray-700 mb-3">Undergraduate (B.Sc. Economics, Politics &amp; Economics, and others)</h3>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-lg shadow-sm">
+                        <h4 class="font-semibold text-gray-800">Einf&uuml;hrung in die Statistik</h4>
+                        <p class="text-gray-500 text-sm mt-1">Lecture, in German &middot; Summer terms since 2025</p>
+                        <p class="text-gray-600 mt-2">Large introductory statistics course serving seven degree programmes across three faculties. Covers descriptive statistics, probability, estimation, and hypothesis testing. Uses live polling (PINGO) and real-world examples drawn from election data, sports statistics, and a student-generated survey.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow-sm">
+                        <h4 class="font-semibold text-gray-800">Vertiefende Methoden der &Ouml;konometrie</h4>
+                        <p class="text-gray-500 text-sm mt-1">Lecture, in German &middot; Winter terms since 2024/25</p>
+                        <p class="text-gray-600 mt-2">Advanced regression methods, panel data, time series, and causal inference (IV/2SLS, RDD). Practical implementation in Stata and R.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Previous teaching -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Previous Teaching (Universit&auml;t Hamburg, 2016&ndash;2024)</h2>
+            <ul class="space-y-2 text-gray-600">
+                <li class="ml-5 list-disc">Grundlagen Statistik (B.A. lecture)</li>
+                <li class="ml-5 list-disc">&Ouml;konomie und Sprache (M.A. seminar)</li>
+                <li class="ml-5 list-disc">Economics of Language, Hamburg International Summer School</li>
+                <li class="ml-5 list-disc">Migrations&ouml;konomik (M.A. seminar)</li>
+                <li class="ml-5 list-disc">Arbeitsmarkt&ouml;konomik (B.A. lecture)</li>
+                <li class="ml-5 list-disc">&Ouml;konomie und Migration (B.A. seminar)</li>
+                <li class="ml-5 list-disc">Microeconomics (M.A. exercise, in English)</li>
+                <li class="ml-5 list-disc">&Ouml;konomie und Geschlecht (B.A. seminar)</li>
+            </ul>
+        </section>
+
+        <!-- Thesis supervision -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Thesis Supervision (selected)</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Master&rsquo;s theses</h3>
+                    <ul class="space-y-1 text-gray-600">
+                        <li class="ml-5 list-disc">Preference Heterogeneity in Hospital Selection &ndash; Analysis of a Discrete Choice Experiment (M. Junkersdorf, 2026)</li>
+                        <li class="ml-5 list-disc">A Machine Learning Approach to Identifying Determinants of Solidarity in Europe (S. Papousek, 2026)</li>
+                        <li class="ml-5 list-disc">Development of Emotion and Reasoning in the General Speeches of the United Nations (S. Franzen, 2025/26)</li>
+                        <li class="ml-5 list-disc">Effects on Attitudes Toward Migration: A Computational Analysis of Linguistic Style in Information Treatments (L. Rodefeld, 2025/26)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Bachelor&rsquo;s theses</h3>
+                    <ul class="space-y-1 text-gray-600">
+                        <li class="ml-5 list-disc">&Uuml;berqualifizierte Erwerbsarbeit von Menschen mit Migrationshintergrund (V. Okonkwo, 2026)</li>
+                        <li class="ml-5 list-disc">Geschlechterspezifische Bildungsaspirationen und Bildungserfolg (N. Dasse, 2025)</li>
+                        <li class="ml-5 list-disc">Zugewanderte im deutschen Gesundheitssystem (R. M. Reuter, 2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-white mt-12 border-t border-gray-200">
         <div class="max-w-4xl mx-auto px-4 py-6">
             <p class="text-center text-gray-500 text-sm">
-                © 2025 Eva Markowsky. Last updated: February 2025
+                &copy; 2026 Eva Markowsky. Last updated: August 2026
             </p>
         </div>
     </footer>
